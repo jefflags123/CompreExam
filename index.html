@@ -34,6 +34,22 @@
         .card:hover {
             transform: translateY(-5px); /* Lift effect on hover */
         }
+        /* Styles for the contact section */
+        .contact-section {
+            background-color: #f8f9fa; /* Light background color */
+            padding: 40px 20px; /* Padding for the section */
+            border-radius: 10px; /* Rounded corners */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+            margin-top: 40px; /* Space above the section */
+        }
+        .contact-title {
+            margin-bottom: 30px; /* Space below the title */
+            font-size: 28px; /* Font size for the title */
+            font-weight: bold; /* Bold font */
+        }
+        .form-control {
+            margin-bottom: 15px; /* Space between form fields */
+        }
     </style>
 </head>
 <body>
@@ -74,7 +90,8 @@
         <div class="row">
             <div class="col-md-4">
                 <div class="card text-center">
-                    <div class="card-body">
+                    <img src="https://via.placeholder.com/300" class="card-img-top" alt="Kalumbata Project Image">
+                    <div class=" card-body">
                         <h5 class="card-title">Kalumbata</h5>
                         <p class="card-text">Virtual Reality museum for Manolo Fortich Bukidnon.</p>
                         <a href="https://example.com/project1" class="btn btn-primary">View Project</a>
@@ -83,8 +100,9 @@
             </div>
             <div class="col-md-4">
                 <div class="card text-center">
+                    <img src="https://via.placeholder.com/300" class="card-img-top" alt="Valorant Project Image">
                     <div class="card-body">
-                        <h5 class="card-title">Project 2</h5>
+                        <h5 class="card-title">Valorant</h5>
                         <p class="card-text">Description for Project 2. This project involved using React and Node.js.</p>
                         <a href="https://example.com/project2" class="btn btn-primary">View Project</a>
                     </div>
@@ -92,9 +110,10 @@
             </div>
             <div class="col-md-4">
                 <div class="card text-center">
-                    < div class="card-body">
-                        <h5 class="card-title">Project 3</h5>
-                        <p class="card-text">Description for Project 3. This project focused on developing a mobile application.</p>
+                    <img src="https://via.placeholder.com/300" class="card-img-top" alt="Unity Project Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Unity</h5>
+                        <p class="card-text">Description for Project 3. This project focused on developing a mobile game.</p>
                         <a href="https://example.com/project3" class="btn btn-primary">View Project</a>
                     </div>
                 </div>
@@ -138,8 +157,8 @@
             <div class="col-md-4">
                 <div class="card text-center">
                     <div class="card-body">
-                        <h5 class="card-title">Node.js</h5>
-                        <p class="card-text">Experienced in server-side development using Node.js.</p>
+                        <h5 class="card-title">Super Mario</h5>
+                        <p class="card-text">Experienced in super mario development using unity.</p>
                     </div>
                 </div>
             </div>
@@ -147,20 +166,27 @@
                 <div class="card text-center">
                     <div class="card-body">
                         <h5 class="card-title">Valorant</h5>
-                        <p class="card-text">Knowledgeable in Python for data analysis and scripting.</p>
+                        <p class="card-text">Knowledgeable in Valorant for data analysis and scripting</p>
                     </div>
                 </div>
             </div>
         </div>
 
-        <h2 class="text-center mt-5">Contact</h2>
-        <div class="text-center">
-            <p>If you would like to get in touch, feel free to reach out via email or connect with me on LinkedIn!</p>
+        <div class="contact-section text-center" id="contact">
+            <h2 class="contact-title">Contact</h2>
+            <p>If you would like to get in touch, feel free to reach out via the form below!</p>
+            <form>
+                <input type="text" class="form-control" placeholder="Your Name" required>
+                <input type="email" class="form-control" placeholder="Your Email" required>
+                <textarea class="form-control" rows="4" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </div>
+
+        <div class="text-center mt-5">
+            <p>Connect with me on Gmail: jefflags07@gmail.com!</p>
         </div>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-</body>
-</html>
+    <script src="https://cdn.jsdelivr.net/npm/@popper
